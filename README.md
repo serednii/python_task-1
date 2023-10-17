@@ -14,18 +14,18 @@ Available commands:
  allocate <num> - allocate <num> cells. Returns block first cell number
  free <num> - free block with first cell number <num>
 
->print
-|                   |
-|                   |
-|                   |
->allocate 5
-0
->print
-|0xxxxxxxx|         |
-|                   |
-|                   |
->allocate 3
-5
+# >print
+# |                   |
+# |                   |
+# |                   |
+# >allocate 5
+# 0
+# >print
+# |0xxxxxxxx|         |
+# |                   |
+# |                   |
+# >allocate 3
+# 5
 >print
 |0xxxxxxxx|5xxxx|   |
 |                   |
